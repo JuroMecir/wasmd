@@ -1,6 +1,6 @@
 # default home is ~/.wasmd
 # if you want to setup multiple apps on your local make sure to change this value
-export NODE="//127.0.0.1:26657"
+export NODE="--node //127.0.0.1:26657"
 APP_HOME="~/.wasmd"
 RPC="//localhost:26657"
 CHAIN_ID="localnet"
